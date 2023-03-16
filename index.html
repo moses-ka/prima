@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    <table border="2"  >
+        <thead>
+            <tr>
+                <th>
+                    firs name
+                </th>
+                <th>last name</th>
+                <th>email</th>
+                <tbody>
+                    <tr>
+                        <td> John</td>
+                        <td>Doe</td>
+                        <td>john@doe.org</td>
+                    </tr>
+                    <tr>
+                        <td>jane</td>
+                        <td>Doe</td>
+                        <td>Jane@doe.org</td>
+                    </tr>
+                    <tr >
+                        <td colspan="2">Bucket head</td>
+                        
+                        <td>buckethead@music.org</td>
+                    </tr>
+                </tbody>
+            </tr>
+        </thead>
+    </table>
+   </div>
+   <div style="padding: 50px;" class="form">
+    <label for="name">Name</label>
+    <input  type="text" name="name" id="name" placeholder="Name" required> <br>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" placeholder="Age" required> <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Email" required> <br>
+    <label for="message">message</label>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+    <br>
+    <button type="submit" id="submit">submit</button>
+</div>
+<form action="">
+    <fieldset>
+        <legend>Sport Picker</legend>
+        <form action="">
+            <label for="sportpicker">Select Your Sport</label>
+        <select required name="" id="sportpicker" >
+            <option value="gulf">Gulf</option>
+            <option value="soccer">Soccer</option>
+            <option value="rugby">rugby</option>
+        </select>
+        <br>
+        <label for="timepicker">Pich Your Time</label>
+        <input required type="time" name="" id="timepicker" >
+        </select>
+           
+
+        </form>
+    </fieldset>
+</form>
+</body>
+</html>
